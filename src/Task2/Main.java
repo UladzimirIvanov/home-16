@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         HashMap<String, String> map = new HashMap<>();
+        System.out.println("Введите слова через пробел");
         String[] userInput = scanner.nextLine().split(" ");
         int lastSymbol;
         int firstSymbol = 0;
